@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "313072327070",
+    "firebase_url": "https://iot-based-agrology-default-rtdb.firebaseio.com",
+    "project_id": "iot-based-agrology",
+    "storage_bucket": "iot-based-agrology.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313072327070:android:cf63168715fd57a8619e8f",
+        "android_client_info": {
+          "package_name": "com.example.iotbasedagrology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313072327070-99kfpa7spsl00qsbmfdbvmtjdbts9fsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtRtdanwblfe0uKNaW4Sax42GJE-LkL3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313072327070-99kfpa7spsl00qsbmfdbvmtjdbts9fsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

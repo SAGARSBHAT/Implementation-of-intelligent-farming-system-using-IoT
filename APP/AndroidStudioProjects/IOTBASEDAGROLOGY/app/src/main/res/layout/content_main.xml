@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backend"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soil Moisture Monitoring"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:textColor="@android:color/white">
+        </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:layout_margin="20dp"
+        android:id="@+id/value"
+        >
+
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="START"
+        android:id="@+id/start"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColorHint="@android:color/white"
+        android:background="@drawable/btn">
+    </Button>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="STOP"
+            android:id="@+id/stop"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColorHint="@android:color/white"
+            android:background="@drawable/btn">
+        </Button>
+
+    </LinearLayout>
